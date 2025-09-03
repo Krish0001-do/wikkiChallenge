@@ -1,0 +1,11 @@
+Title: wikki — Obfuscated C skeleton
+Author: karan
+Difficulty: Very easy 
+Files: wikki.c(compiled)
+Goal: Run the binary / inspect the source to obtain the flag.
+
+Summary
+
+This is a small obfuscated C wikki that uses multiple preprocessor macros and junk functions to look complicated. The program prints a hard-coded flag string when run. The "hard" part is only reading through the clutter; functionality is trivial: the program emits flag characters from an array.
+
+Flag: flag{hi_all_wElcomE_this_task}
